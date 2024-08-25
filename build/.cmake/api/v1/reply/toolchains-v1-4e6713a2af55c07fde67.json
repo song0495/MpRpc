@@ -1,0 +1,119 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/local/libevent-2.1.12-stable/include",
+						"/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include",
+						"/usr/local/include",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/x86_64-redhat-linux/4.8.5",
+						"/usr/lib64",
+						"/lib64",
+						"/home/liuhuaqing/package/build/release-install-cpp11/lib",
+						"/usr/local/protobuf-21.11/lib",
+						"/usr/local/libevent-2.1.12-stable/lib",
+						"/usr/local/zookeeper-3.8.4/lib",
+						"/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/usr/bin/cc",
+				"version" : "4.8.5"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/local/boost-1-86-0/include",
+						"/home/liuhuaqing/package/build/release-install-cpp11/include",
+						"/usr/local/protobuf-21.11/include",
+						"/usr/local/zookeeper-3.8.4/include",
+						"/usr/include/c++/4.8.5",
+						"/usr/include/c++/4.8.5/x86_64-redhat-linux",
+						"/usr/include/c++/4.8.5/backward",
+						"/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include",
+						"/usr/local/include",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/x86_64-redhat-linux/4.8.5",
+						"/usr/lib64",
+						"/lib64",
+						"/home/liuhuaqing/package/build/release-install-cpp11/lib",
+						"/usr/local/protobuf-21.11/lib",
+						"/usr/local/libevent-2.1.12-stable/lib",
+						"/usr/local/zookeeper-3.8.4/lib",
+						"/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/usr/bin/c++",
+				"version" : "4.8.5"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
